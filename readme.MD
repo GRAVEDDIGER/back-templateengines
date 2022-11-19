@@ -2,7 +2,7 @@
 
 ## Directory Structure
 
-*backed-desafio-ejs : feat completed using EJS template Engine.
+* backed-desafio-ejs : feat completed using EJS template Engine.
 npm install
 npm start
 *backend-desafio-pug : feat comlpeted using PUG template Engine.
