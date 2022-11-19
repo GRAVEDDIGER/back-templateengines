@@ -8,11 +8,13 @@ const handleSubmit = async (e, form) => {
   let headers = new Headers();
   headers.append("Accept", "application/json");
   //   headers.append("Content-Type", "application/json");
-
+  console.log(formData.url);
   const response = await fetch("/addproduct", {
     method: "POST",
     headers,
     body: formData,
   });
-  console.log(await response.json());
 };
+addProductForm.addEventListener("submit", (e) =>
+  handleSubmit(e, addProductForm)
+);

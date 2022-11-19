@@ -1,0 +1,31 @@
+html 
+    head 
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(link rel="stylesheet" href="views.css")
+        link(rel="preconnect" href="https://fonts.googleapis.com" )
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet")
+    title Motores de plantillas HandleBars
+    body 
+        header
+            h1 Coderhouse Desafio Motor de plantillas
+            H2 HandleBars
+        main(class="mainView")
+            h2 Productos en la base de datos
+            section( class="viewContainer")
+                if contenido 
+                    each product in products 
+                        article( class="view")
+                            img( src=product.url alt=title class="imgView")
+                            h3="Titulo: "+product.title
+                            h3="Precio: "+ product.price
+                else    
+                    h2 No hay productos
+            a(href="/" class="enviar") Volver a Inicio
+        footer 
+            h3 Adrian Daniel Abadin
+            address aabadin@gmail.com
+        

@@ -7,6 +7,7 @@ const storage = multer.diskStorage({
     cb(null, "public/images");
   },
   filename: function (req, file, cb) {
+    console.log(file);
     cb(null, "" + Date.now() + "-" + file.originalname);
   },
 });
@@ -15,6 +16,7 @@ const dbManager = new Store("./data.json");
 routes.use(express.json());
 routes.post("/addproduct", upload.single("url"), async (req, res) => {
   const { title, price } = req.body;
+  console.log(req.file);
   const response = await dbManager.addProduct(
     title,
     "./images/" + req.file.filename,
