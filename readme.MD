@@ -5,10 +5,10 @@
 * backed-desafio-ejs : feat completed using EJS template Engine.
 npm install
 npm start
-*backend-desafio-pug : feat comlpeted using PUG template Engine.
+* backend-desafio-pug : feat comlpeted using PUG template Engine.
 npm install
 npm start
-\*backend-desafio-hb : feat completed using HandleBars.
+* backend-desafio-hb : feat completed using HandleBars.
 npm install
 npm start
 
