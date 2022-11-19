@@ -1,0 +1,27 @@
+<html>
+  <%- include("./partials/head")%>
+  <body>
+    <%- include("./partials/header")%>
+    <main class="mainView">
+      <h2>Productos en la base de datos</h2>
+      <section class="viewContainer">
+        <% if (contenido) { %> <% products.forEach(product => {%>
+        <article class="view">
+          <img
+            src="<%=product.url %>"
+            alt="<%=product.title%>"
+            class="imgView"
+          />
+          <h3>Titulo:<%=product.title%></h3>
+          <h3>Precio: <%=product.price%></h3>
+        </article>
+
+        <% }); %> <% } else { %>
+        <h2>No hay productos</h2>
+        <%}%>
+      </section>
+      <a href="/" class="enviar">Agregar Productos</a>
+    </main>
+    <%- include("./partials/footer")%>
+  </body>
+</html>

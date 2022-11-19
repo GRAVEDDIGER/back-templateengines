@@ -1,16 +1,1 @@
-[
-  {
-    "title": "Defensa",
-    "url": "./images/1668487260598-app.jpg",
-
-    "price": "15",
-    "id": 1
-  },
-  {
-    "title": "civil",
-    "url": "./images/1668487274755-img1-3.png",
-
-    "price": "25",
-    "id": 2
-  }
-]
+[{"title":"Jon Snow","url":"./images/1668829323012-jon-snow.webp","price":"15","id":4},{"title":"Arya Stark","url":"./images/1668829376892-arya.jfif","price":"24","id":5},{"title":"Sansa Stark","url":"./images/1668831361605-sansa.jfif","price":"12","id":6}]

@@ -14,5 +14,7 @@ const handleSubmit = async (e, form) => {
     headers,
     body: formData,
   });
-  console.log(await response.json());
 };
+addProductForm.addEventListener("submit", (e) =>
+  handleSubmit(e, addProductForm)
+);

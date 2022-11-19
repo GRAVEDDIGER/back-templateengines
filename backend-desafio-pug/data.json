@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "title": "Jon Snow",
+    "url": "./images/1668831490744-jon-snow.webp",
+    "price": "222",
+    "id": 1
+  },
+  {
+    "title": "Arya Stark",
+    "url": "./images/1668831503824-arya.jfif",
+    "price": "333",
+    "id": 2
+  },
+  {
+    "title": "Sansa Stark",
+    "url": "./images/1668831552361-sansa.jfif",
+    "price": "11",
+    "id": 3
+  }
+]
